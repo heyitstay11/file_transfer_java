@@ -38,7 +38,7 @@ public class Client{
         jbSendFile.setPreferredSize(new Dimension(150, 75));
         jbSendFile.setFont(new Font("Arial", Font.BOLD, 20));
 
-        JButton jpChooseFile = new JButton("Send File");
+        JButton jpChooseFile = new JButton("Choose File");
         jpChooseFile.setPreferredSize(new Dimension(150, 75));
         jpChooseFile.setFont(new Font("Arial", Font.BOLD, 20));
 

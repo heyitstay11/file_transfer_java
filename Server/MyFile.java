@@ -5,7 +5,7 @@ public class MyFile {
     private byte[] data;
     private String fileExtension;
 
-    MyFile(int id, String name, byte[] data, String fileExtension){
+    public MyFile(int id, String name, byte[] data, String fileExtension){
         this.id = id;
         this.name = name;
         this.data = data;
