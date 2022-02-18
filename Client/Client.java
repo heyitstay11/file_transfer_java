@@ -19,7 +19,7 @@ public class Client{
         JFrame jFrame = new JFrame("Client");
         jFrame.setSize(450, 450);
         jFrame.setLayout(new BoxLayout(jFrame.getContentPane(), BoxLayout.Y_AXIS));
-        jFrame.setDefaultCloseOperation(jFrame.EXIT_ON_CLOSE);
+        jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     
         JLabel jLabelTitle = new JLabel("File Sender");
         jLabelTitle.setFont(new Font("Arial", Font.BOLD, 25));
